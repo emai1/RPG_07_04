@@ -25,4 +25,13 @@ public class Protagonist extends Character {
 		strength = (int) DEFAULT_STATS[1];
 		defense = (int) DEFAULT_STATS[2];
 	}
+	
+	public String toString() {
+		// reconsider what fields need to be printed
+		return name + System.lineSeparator()
+			 + "Health" + health + System.lineSeparator()
+			 + "Strength" + strength + System.lineSeparator()
+			 + "Defense" + defense + System.lineSeparator()
+			 + "Attack" + attack + System.lineSeparator();
+	}
 }
