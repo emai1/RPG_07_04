@@ -28,10 +28,11 @@ public class Protagonist extends Character {
 	
 	public String toString() {
 		// reconsider what fields need to be printed
-		return name + System.lineSeparator()
-			 + "Health" + health + System.lineSeparator()
-			 + "Strength" + strength + System.lineSeparator()
-			 + "Defense" + defense + System.lineSeparator()
-			 + "Attack" + attack + System.lineSeparator();
+		return "Protag status " + System.lineSeparator()
+			 + "Name: " + name + System.lineSeparator()
+			 + "Health: " + health + System.lineSeparator()
+			 + "Strength: " + strength + System.lineSeparator()
+			 + "Defense: " + defense + System.lineSeparator()
+			 + "Attack: " + attack + System.lineSeparator();
 	}
 }
