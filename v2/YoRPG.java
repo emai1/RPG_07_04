@@ -72,8 +72,25 @@ public class YoRPG
 	    name = in.readLine();
     } catch ( IOException e ) { }
 
+    //INSERT HOW TO LET PLAYER CHOOSE HIS/HER SUBCLASS HERE
+
+    try {
+	    System.out.println( "O," + name + ", choose thy class:" );
+      System.out.println( "\t1: Mage \n\t2: ___ \n\t3: ___ " ); //Add your classes here guyyyss
+      i = Integer.parseInt( in.readLine() );
+    } catch ( IOException e ) { }
+
     //instantiate the player's character
-    pat = new Protagonist( name );
+    if (i == 1) {
+      pat = new Mage( name );
+    }
+    else if (i ==2) {
+      pat = new ____( name );
+    }
+    else {
+      pat = new ___(name);
+    }
+    
 
   }//end newGame()
 
