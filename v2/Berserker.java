@@ -8,7 +8,7 @@ public class Berserker extends Protagonist {
         defense -= 2-
     }
 
-    public String  toString() {
+    public String toString() {
         return "Class: Berserker" + System.lineSeperator() + super.toString();
     } 
 }
