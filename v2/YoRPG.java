@@ -76,7 +76,7 @@ public class YoRPG
 
     try {
 	    System.out.println( "O," + name + ", choose thy class:" );
-      System.out.println( "\t1: Mage \n\t2: ___ \n\t3: ___ " ); //Add your classes here guyyyss
+      System.out.println( "\t1: Mage \n\t2: Bowman \n\t3: ___ " ); //Add your classes here guyyyss
       i = Integer.parseInt( in.readLine() );
     } catch ( IOException e ) { }
 
@@ -85,7 +85,7 @@ public class YoRPG
       pat = new Mage( name );
     }
     else if (i ==2) {
-      pat = new ____( name );
+      pat = new Bowman( name );
     }
     else {
       pat = new ___(name);
