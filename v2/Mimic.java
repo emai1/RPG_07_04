@@ -8,7 +8,7 @@ public class Mimic extends Monster{
         attack += 0.5
     }
 
-    public String  toString() {
+    public String toString() {
         return "Monster: Mimic" + super.toString();
     } 
 }
