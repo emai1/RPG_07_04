@@ -23,7 +23,7 @@ public class Character {
 	public int attack(Character defender) {
 		int damage = (int) (strength * attack) - defender.getDefense();
 		// negative damage seems like a bad design...
-		if (damage < 0)
+		if (damage <= 0)
 			damage = 1;
 		defender.lowerHP( damage);
 		return damage;
