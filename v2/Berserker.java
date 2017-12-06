@@ -5,7 +5,7 @@ public class Berserker extends Protagonist {
         health -= 50
         strength += 25
         attack += 3.6
-        defense -= 2-
+        defense -= 2
     }
 
     public String toString() {
