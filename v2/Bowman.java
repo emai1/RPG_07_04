@@ -5,7 +5,7 @@ public class Bowman extends Protagonist {
 		health -= 10;
 		strength += 10;
 		defense -= 5;
-		attack += 0.2;
+		attack += 0.25;
 	}
 	
 	public String toString() {
