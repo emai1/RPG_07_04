@@ -28,7 +28,7 @@ public class Protagonist extends Character {
 	
 	public String toString() {
 		// reconsider what fields need to be printed
-		return "Protag status " + System.lineSeparator()
+		return "Protag" + System.lineSeparator()
 			 + "Name: " + name + System.lineSeparator()
 			 + "Health: " + health + System.lineSeparator()
 			 + "Strength: " + strength + System.lineSeparator()
